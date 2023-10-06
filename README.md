@@ -74,7 +74,7 @@ OUTPUT image
 
 Image color Output image
 
-# Number Camparision
+# Number Comparision
 
 ##THEORY :
 Equality (==): Compares whether two values are equal.
