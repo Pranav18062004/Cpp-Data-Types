@@ -69,6 +69,48 @@ bool isStudent = true;
 
 You can determine the size (in bytes) of a data type using the `sizeof` operator:
 
+
+OUTPUT image
+
+Image color Output image
+
+# Number Camparision
+
+##THEORY :
+Equality (==): Compares whether two values are equal.
+
+Inequality (!=): Compares whether two values are not equal.
+
+Greater Than (>): Compares whether one value is greater than another.
+
+Less Than (<): Compares whether one value is less than another.
+
+Greater Than or Equal To (>=): Compares whether one value is greater than or equal to another.
+
+Less Than or Equal To (<=): Compares whether one value is less than or equal to another.
+
+## Logical Operators:
+
+Logical operators, such as && (logical AND) and || (logical OR), can be used to combine multiple comparison operations in complex conditions. int age = 25; if (age >= 18 && age <= 60) { // Code to execute if age is between 18 and 60
+
+}
+
+## Conditional Statements: 
+Conditional statements, like if, else if, and else, are used to execute different code blocks based on the result of comparison operations. int score = 85; if (score >= 90) { // Code for A grade } else if (score >= 80) { // Code for B grade } else { // Code for C grade or lower } In summary, number comparison in C++ involves using comparison operators to evaluate and compare numeric values. These comparisons are essential for making decisions and controlling program flow, and they are used extensively in various programming scenarios.
+
+##ALGORITHM 
+1.Include Headers: Include necessary headers, such as , at the beginning of your program.
+
+2.Declare and Initialize Variables: Declare and initialize the numeric variables you want to compare. In this example, we have num1 and num2.
+
+3.Compare Numbers Using if-else Statements:
+
+The if statement is used to test whether num1 is equal to num2. The else if statement checks if num1 is less than num2. The else statement handles the case where num1 is greater than num2. 4.Execute Code Blocks: Depending on the comparison results, the appropriate code block within the if or else if sections is executed.
+
+5.Continue the Program: The program continues with the rest of its logic after the if-else statements.
+
+OUTPUT image
+
 cpp
 int sizeOfInt = sizeof(int); // Returns the size of an int
 
