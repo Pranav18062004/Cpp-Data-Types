@@ -82,6 +82,13 @@ int sizeOfInt = sizeof(int); // Returns the size of an int
 
 # Number Comparision
 
+## Table of Contents
+- [Theory](#theory)
+  - [Logical Operators](#logical-operators)
+  - [Conditional Statements](#conditional-statements)
+- [Algorithm](#alorithm)
+
+
 ##THEORY :
 Equality (==): Compares whether two values are equal.
 
