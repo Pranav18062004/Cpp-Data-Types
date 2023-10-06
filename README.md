@@ -89,7 +89,7 @@ int sizeOfInt = sizeof(int); // Returns the size of an int
 - [Algorithm](#alorithm)
 
 
-##THEORY :
+##Theory:
 Equality (==): Compares whether two values are equal.
 
 Inequality (!=): Compares whether two values are not equal.
@@ -102,16 +102,16 @@ Greater Than or Equal To (>=): Compares whether one value is greater than or equ
 
 Less Than or Equal To (<=): Compares whether one value is less than or equal to another.
 
-## Logical Operators:
+  ## Logical Operators:
+  
+  Logical operators, such as && (logical AND) and || (logical OR), can be used to combine multiple comparison operations in complex conditions. int age = 25; if (age >= 18 && age <= 60) { // Code to execute if age is between 18 and 60
+  
+  }
+  
+  ## Conditional Statements: 
+  Conditional statements, like if, else if, and else, are used to execute different code blocks based on the result of comparison operations. int score = 85; if (score >= 90) { // Code for A grade } else if (score >= 80) { // Code for B grade } else { // Code for C grade or lower } In summary, number comparison in C++ involves using comparison operators to evaluate and compare numeric values. These comparisons are essential for making decisions and controlling program flow, and they are used extensively in various programming scenarios.
 
-Logical operators, such as && (logical AND) and || (logical OR), can be used to combine multiple comparison operations in complex conditions. int age = 25; if (age >= 18 && age <= 60) { // Code to execute if age is between 18 and 60
-
-}
-
-## Conditional Statements: 
-Conditional statements, like if, else if, and else, are used to execute different code blocks based on the result of comparison operations. int score = 85; if (score >= 90) { // Code for A grade } else if (score >= 80) { // Code for B grade } else { // Code for C grade or lower } In summary, number comparison in C++ involves using comparison operators to evaluate and compare numeric values. These comparisons are essential for making decisions and controlling program flow, and they are used extensively in various programming scenarios.
-
-##ALGORITHM 
+##Algorithm 
 1.Include Headers: Include necessary headers, such as , at the beginning of your program.
 
 2.Declare and Initialize Variables: Declare and initialize the numeric variables you want to compare. In this example, we have num1 and num2.
