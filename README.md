@@ -68,11 +68,17 @@ bool isStudent = true;
 ## Sizeof Operator
 
 You can determine the size (in bytes) of a data type using the `sizeof` operator:
+cpp
+int sizeOfInt = sizeof(int); // Returns the size of an int
 
 
-OUTPUT image
+### OUTPUT image: 
+![image](https://github.com/Pranav18062004/Cpp-Data-Types/assets/79793482/5aa01135-fcb9-45b9-b5e0-77d866c408a5)
 
-Image color Output image
+
+### Image color Output image:
+![image](https://github.com/Pranav18062004/Cpp-Data-Types/assets/79793482/81faf731-3ab7-4086-bd97-e8757a528637)
+
 
 # Number Comparision
 
@@ -110,8 +116,8 @@ The if statement is used to test whether num1 is equal to num2. The else if stat
 5.Continue the Program: The program continues with the rest of its logic after the if-else statements.
 
 OUTPUT image
+![image](https://github.com/Pranav18062004/Cpp-Data-Types/assets/79793482/f57f55bc-6565-4618-8902-1518440052d3)
 
-cpp
-int sizeOfInt = sizeof(int); // Returns the size of an int
+
 
 
